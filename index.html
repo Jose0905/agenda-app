@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="agendaApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contactos</title>
+    <!-- Angular JS -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <!-- Angular Material -->
+    <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="node_modules/angular-aria/angular-aria.min.js"></script>
+    <script src="node_modules/angular-messages/angular-messages.min.js"></script>
+    <script src="node_modules/angular-material/angular-material.min.js"></script>
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.min.css">
+    <!-- Custom Script -->
+    <script src="app/app.module.js"></script>
+    <script src="app/app.router.js"></script>
+    <script src="app/controllers/contactList.controller.js"></script>
+    <script src="app/controllers/createContact.controller.js"></script>
+    <script src="app/services/contacts.service.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body ng-cloak>
+    <div class="contenedor">
+        <h1>Agenda de contacto</h1>
+        <div ng-view></div>
+        
+    </div>
+    
+
+
+
+</body>
+</html>

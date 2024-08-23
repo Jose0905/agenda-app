@@ -1,0 +1,29 @@
+/* Index */
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+
+
+/* Contact List */
+.contactList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;    
+    padding: 50px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+.contactList h2{
+
+    background-color: aqua;
+}
+
+/* Create Contact */
+.createContact{
+    background-color: aqua;
+}
